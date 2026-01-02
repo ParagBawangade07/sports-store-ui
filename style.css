@@ -1,0 +1,193 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
+}
+
+body {
+    background: #f5f5f5;
+    color: #222;
+}
+
+
+.nav-bar{
+    padding: 0 2rem;
+    height: 5rem;
+    background-color: #1a659e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   /* ⭐ yahi main change hai */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.nav-items{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-items a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.hero-image{
+    background-image: url(sports-tools.jpg);
+    background-size: cover;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.offer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 1.5rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #004e89;
+    color: whitesmoke;
+}
+.section {
+    padding: 40px 40px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    height: 287px;
+    width: 287px;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 8px 18px;
+    background: #0095ff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tag-line{
+    height: 5rem;
+    background-color: rgb(41, 205, 199);
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hero {
+    height: 15rem;
+    background: url('https://images.unsplash.com/photo-1602673096457-3b04b2d30f40?auto=format&fit=crop&w=1500&q=60')
+        center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
+}
+.hero h1 {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.hero p {
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+.hero button {
+    padding: 12px ;
+    margin-right: 55px;
+    font-size: 18px;
+    background: #0095ff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#home{
+    background-color:rgb(163, 163, 163);
+    border-radius: 1rem;
+}
+/* Offer Banner */
+.offer {
+    background: #0095ff;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 1rem;
+    margin: 20px 0;
+}
+/* About */
+.about {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.about img {
+    width: 45%;
+    border-radius: 1rem;
+    height: 658px;
+    width: 438px;
+}
+
+/* Contact */
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.contact input,
+.contact textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px;
+    background: #0095ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Footer */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+

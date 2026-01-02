@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+    <div class="nav-bar">
+    <div class="nav-logo"> &#937; SPORTIE</div>
+
+        <div class="nav-items">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+        </div>
+    </div>
+<main>
+        <div class="hero-image"></div>
+        <div class="offer">Best Sports Accessories & Equipment</div>
+
+        <div class="hero" id="home">
+            <h1>Gear Up For Victory</h1>
+            <p>Premium Sports Accessories & Equipment</p>
+            <button>Shop Now</button>
+        </div>
+
+    <div class="section" id="products">
+        <h1>Featured Products</h1>
+        <br>
+        <div class="products">
+            <div class="card">
+                <img src="/football image 3.jpg">
+                <h3>Football</h3>
+                <p>&#8377; 799</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="/bat image.jpg">
+                <h3>Cricket Bat</h3>
+                <p>&#8377; 599</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="/basketball image.jpg">
+                <h3>Basketball</h3>
+                <p>&#8377; 699</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="/Cricketkit images.jpg">
+                <h3>CricketKit</h3>
+                <p>&#8377; 1999</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+        <div class="section offer" id="offers">
+            Limited Offer: Get <b>30% OFF</b> on All Football Gear!
+            <div id="timer"></div>
+        </div>
+    
+    <div class="section about" id="about">
+        <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1500&q=60">
+        <div>
+            <h1>About Us</h1>
+            <p><h3>We provide high-quality and affordable sports equipment for athletes and teams.</h3></p>
+            <ul>
+                <li><h3>✔ 100% Genuine Products</h3></li>
+                <li><h3>✔ Free Shipping</h3></li>
+                <li><h3>✔ Easy Returns</h3></li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <div class="section contact" id="contact">
+        <h2>Contact Us</h2>
+        <form onsubmit="sendMessage(event)">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+         
+</main>
+
+<footer>
+        © 2025 SportsPro. All Rights Reserved.
+</footer>
+
+    </div>
+</body>
+</html>
